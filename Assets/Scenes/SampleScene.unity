@@ -358,6 +358,7 @@ GameObject:
   - component: {fileID: 1237335946}
   - component: {fileID: 1237335947}
   - component: {fileID: 1237335948}
+  - component: {fileID: 1237335949}
   m_Layer: 0
   m_Name: Bird
   m_TagString: Player
@@ -508,6 +509,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myRidgidbody: {fileID: 1237335946}
   flapStrength: 10
+--- !u!114 &1237335949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237335943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d744172b5a5da914eb318db70c100e2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2025761042
 GameObject:
   m_ObjectHideFlags: 0
@@ -524,7 +537,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2025761043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -537,8 +550,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e866f7bdfc78f4290fab5ad89cd270, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pipe: {fileID: 1362981402988192611, guid: e55876e8787981447bfbdef0221e8e1c, type: 3}
-  spawnRate: 2
 --- !u!4 &2025761044
 Transform:
   m_ObjectHideFlags: 0
